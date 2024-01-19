@@ -7,12 +7,12 @@ function NavBar() {
   return (
     <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="/">Ryan Blog</Navbar.Brand>
+          <Navbar.Brand href="/ryanblog/">Ryan Blog</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="/" className='ch-font' > 首頁</Nav.Link>
-            <Nav.Link href="/about">關於作者</Nav.Link>
-            <Nav.Link href="/post">文章閱覽</Nav.Link>
-            <Nav.Link href="/project">作品集</Nav.Link>
+            <Nav.Link href="/ryanblog/" className='ch-font' > 首頁</Nav.Link>
+            <Nav.Link href="/ryanblog/about">關於作者</Nav.Link>
+            <Nav.Link href="/ryanblog/post">文章分享</Nav.Link>
+            <Nav.Link href="/ryanblog/project">開發作品</Nav.Link>
           </Nav>
         </Container>
     </Navbar>
