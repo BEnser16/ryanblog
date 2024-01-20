@@ -1,11 +1,14 @@
 import React from 'react'
+import { Image} from 'react-bootstrap'
+import coverImg from "../static/img/rodger.jpg"
 
 const home = () => {
   return (
-    <div>
-        <h1>觀迎來到首頁</h1>
+    <>
+      <Image src={coverImg} fluid />
       
-    </div>
+      
+    </>
   )
 }
 
