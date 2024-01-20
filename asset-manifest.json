@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ryanblog/static/css/main.6749782e.css",
+    "main.js": "/ryanblog/static/js/main.38adc968.js",
+    "static/js/787.17ba625c.chunk.js": "/ryanblog/static/js/787.17ba625c.chunk.js",
+    "static/media/rodger.jpg": "/ryanblog/static/media/rodger.bfbb5fa27bfc4b55c70b.jpg",
+    "index.html": "/ryanblog/index.html",
+    "main.6749782e.css.map": "/ryanblog/static/css/main.6749782e.css.map",
+    "main.38adc968.js.map": "/ryanblog/static/js/main.38adc968.js.map",
+    "787.17ba625c.chunk.js.map": "/ryanblog/static/js/787.17ba625c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6749782e.css",
+    "static/js/main.38adc968.js"
+  ]
+}
