@@ -4,6 +4,7 @@ import NavBar from './components/nav';
 import About from './pages/about';
 import Post from './pages/post';
 import Project from './pages/project';
+import Footer from './components/footer';
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
           <Route path="/post" element={<Post/>} />
           <Route path="/project" element={<Project/>} />
         </Routes>
-      
+      <Footer />
       
     </>
     
