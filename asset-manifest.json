@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/ryanblog/static/css/main.6749782e.css",
-    "main.js": "/ryanblog/static/js/main.ebdfa8e1.js",
+    "main.js": "/ryanblog/static/js/main.7fb7e57f.js",
     "static/js/787.17ba625c.chunk.js": "/ryanblog/static/js/787.17ba625c.chunk.js",
     "static/media/treeroad.jpg": "/ryanblog/static/media/treeroad.e2984463c73c3a4cc362.jpg",
-    "static/media/busryan.jpg": "/ryanblog/static/media/busryan.453fb3fca10c3ddbdbde.jpg",
+    "static/media/bryan.jpg": "/ryanblog/static/media/bryan.b4608e73e3da37e08ca3.jpg",
     "static/media/icebox.jpg": "/ryanblog/static/media/icebox.0a3e04c1eeb0bbfa2258.jpg",
     "static/media/coffeeshop.jpg": "/ryanblog/static/media/coffeeshop.8b58b3b7e3040d84af4f.jpg",
     "static/media/computer.jpg": "/ryanblog/static/media/computer.8fbccef306441f27d609.jpg",
     "index.html": "/ryanblog/index.html",
     "main.6749782e.css.map": "/ryanblog/static/css/main.6749782e.css.map",
-    "main.ebdfa8e1.js.map": "/ryanblog/static/js/main.ebdfa8e1.js.map",
+    "main.7fb7e57f.js.map": "/ryanblog/static/js/main.7fb7e57f.js.map",
     "787.17ba625c.chunk.js.map": "/ryanblog/static/js/787.17ba625c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6749782e.css",
-    "static/js/main.ebdfa8e1.js"
+    "static/js/main.7fb7e57f.js"
   ]
 }
