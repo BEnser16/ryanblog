@@ -5,6 +5,7 @@ import About from './pages/about';
 import Post from './pages/post';
 import Project from './pages/project';
 import Footer from './components/footer';
+import Ch1 from './post/ch1';
 
 
 function App() {
@@ -15,7 +16,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Home></Home>} />
           <Route path="/about" element={<About/>} />
-          <Route path="/post" element={<Post/>} />
+          
+          <Route  path="/post" element={<Post/>} /> 
+          <Route path="/post/ch1" element={<Ch1 />} />
+          
+          
           <Route path="/project" element={<Project/>} />
         </Routes>
       <Footer />

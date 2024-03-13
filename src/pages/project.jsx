@@ -14,8 +14,8 @@ const project = () => {
   return (
     <>
       <Container className='mt-5' style={{minHeight:"90vh"}} >
-        <h2>開發計畫</h2>
-        <Container className='m-2 mt-5' >
+        <h2>開發作品</h2>
+        <Container className='m-2 my-5' >
           {articles.map(article => (
             <ProjectCard key={article.id} {...article} />
           ))}
