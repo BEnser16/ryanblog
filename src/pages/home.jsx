@@ -1,10 +1,10 @@
 import React from 'react';
 import { Image, Container, Row, Col } from 'react-bootstrap';
-import coverImg from "../static/img/treeroad.jpg";
+import coverImg from "../static/img/diego.jpg";
 
 const Home = () => {
   return (
-    <Container fluid style={{backgroundColor:"gray"}} >
+    <Container fluid style={{ border: "none", outline: "none", padding: 0, overflow: "hidden" }} >
       <Row>
         <Col>
           <div style={{ position: "relative", width: "100%", height: "95vh", display: "flex", alignItems: "center", justifyContent: "center" }}>
