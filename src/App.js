@@ -6,6 +6,7 @@ import Post from './pages/post';
 import Project from './pages/project';
 import Footer from './components/footer';
 import Ch1 from './post/ch1';
+import GitCommand from './post/GitCommand';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           
           <Route  path="/post" element={<Post/>} /> 
           <Route path="/post/ch1" element={<Ch1 />} />
+          <Route path="/post/gitcommand" element={<GitCommand />} />
           
           
           <Route path="/project" element={<Project/>} />
