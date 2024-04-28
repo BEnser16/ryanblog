@@ -6,8 +6,8 @@ import iceboxImg from '../static/img/project/icebox.jpg'
 
 const project = () => {
   const articles = [
-    { id: 1, title: 'Duck Coffee', content: '前後端分離 , 咖啡廳餐飲系統'  , cover:coffeeImg},
-    { id: 2, title: 'Fridge Cooker', content: '冰箱物品管理 , 雙平台 Mobile App' , cover:iceboxImg },
+    { id: 1, title: 'Duck Coffee', content: 'React + Springboot , 咖啡廳餐飲資訊系統'  , cover:coffeeImg},
+    { id: 2, title: 'Fridge Cooker', content: 'ReactNative , 冰箱物品管理 App' , cover:iceboxImg },
     // 可以添加更多文章
   ];
 

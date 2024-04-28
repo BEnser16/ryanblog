@@ -6,13 +6,13 @@ const about = () => {
   return (
     <>
       <Container className="mt-5" style={{ minHeight: "90vh" }}>
-        <Row className="mb-5">
+        <Row className="my-5">
           <div className="col mt-3">
             <Image
               src={cutImg}
               style={{
-                maxHeight: "400px",
-                maxWidth: "400px",
+                maxHeight: "300px",
+                maxWidth: "300px",
                 objectFit: "cover",
               }}
               roundedCircle
@@ -38,7 +38,7 @@ const about = () => {
           </div>
         </Row>
 
-        <Row className="mt-5">
+        <Row className="mt-5 mt-md-5"  >
           <div className="col">
             <h3 className="mb-3" >聯絡資訊</h3>
             <p>
@@ -53,7 +53,9 @@ const about = () => {
             </Col>
             <Col>
               <p>
-                網球 , 電影 , NBA , Switch
+                網球  <br />
+                NBA  <br />
+                Switch
               </p>
             </Col>
           </div>
