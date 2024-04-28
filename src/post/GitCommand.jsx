@@ -12,7 +12,7 @@ const GitCommand = () => {
   #### Git 主要分為本地倉庫跟遠端倉庫
   
 
-  
+
   本地的檔案 ｜ 暫存區 ｜本地倉庫 ｜遠端倉庫
   
   > 本地的檔案就是目前IDE編輯的檔案
@@ -24,6 +24,7 @@ const GitCommand = () => {
   示意圖如下：
   
   ![Git concept](https://i.imgur.com/5jcNa7f.png)
+  > 圖片來源附於下方參考資料
   
   ### 常用的指令
   
@@ -100,11 +101,15 @@ const GitCommand = () => {
   
   > 回朔的進度依照 commit 的時間點進行判斷
   >
+
+  ### 參考資料
+  - [git documentation](https://git-scm.com/doc)
+  - [git 常用指令 - HackMD](https://hackmd.io/@chrislinlin/git_command)
   `;
 
   return (
     <Container fluid className='d-flex justify-content-center' >
-        <div className='col-6 mt-5' >
+        <div className='col-6 my-5' >
 
             <ReactMarkdown children={markdownContent} />   
         </div>

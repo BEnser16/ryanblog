@@ -270,7 +270,7 @@ var coffees = ['French Roast', 'Colombian', 'Kona'];
 
   return (
     <Container fluid className='d-flex justify-content-center' >
-        <div className='col-6 mt-5' >
+        <div className='col-6 my-5' >
 
             <ReactMarkdown children={markdownContent} />   
         </div>
