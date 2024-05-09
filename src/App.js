@@ -7,6 +7,7 @@ import Project from './pages/project';
 import Footer from './components/footer';
 import Ch1 from './post/ch1';
 import GitCommand from './post/GitCommand';
+import DuckCoffeeIntro from './pages/DuckCoffeeIntro';
 
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
           
           
           <Route path="/project" element={<Project/>} />
+          <Route path="/project/duckcoffee" element={<DuckCoffeeIntro/>} />
+
         </Routes>
       <Footer />
       

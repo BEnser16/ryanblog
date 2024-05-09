@@ -6,8 +6,8 @@ import iceboxImg from '../static/img/project/icebox.jpg'
 
 const project = () => {
   const articles = [
-    { id: 1, title: 'Duck Coffee', content: 'React + Springboot , 咖啡廳餐飲資訊系統'  , cover:coffeeImg},
-    { id: 2, title: 'Fridge Cooker', content: 'ReactNative , 冰箱物品管理 App' , cover:iceboxImg },
+    { id: 1, title: 'Duck Coffee', content: 'React + Springboot , 咖啡廳餐飲資訊系統'  , cover:coffeeImg , link:'/ryanblog/project/duckcoffee'},
+    { id: 2, title: 'Fridge Cooker', content: 'ReactNative , 冰箱物品管理 App' , cover:iceboxImg , link:'/ryanblog/project/fridgecooker'},
     // 可以添加更多文章
   ];
 
@@ -17,7 +17,9 @@ const project = () => {
         <h2>開發作品</h2>
         <Container className='m-2 my-5' >
           {articles.map(article => (
-            <ProjectCard key={article.id} {...article} />
+            <a href={article.link} style={{textDecoration:"none"}} >
+              <ProjectCard key={article.id} {...article} />
+            </a>
           ))}
         </Container>
 
