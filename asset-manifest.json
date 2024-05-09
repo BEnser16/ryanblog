@@ -1,20 +1,30 @@
 {
   "files": {
     "main.css": "/ryanblog/static/css/main.6749782e.css",
-    "main.js": "/ryanblog/static/js/main.6f35b8c9.js",
+    "main.js": "/ryanblog/static/js/main.c1012f69.js",
     "static/js/787.17ba625c.chunk.js": "/ryanblog/static/js/787.17ba625c.chunk.js",
+    "static/media/duckpost.png": "/ryanblog/static/media/duckpost.0950916003ae80554411.png",
+    "static/media/duckMenu.png": "/ryanblog/static/media/duckMenu.42fbc3924b7acb52fc00.png",
+    "static/media/duckMenuAdmin.png": "/ryanblog/static/media/duckMenuAdmin.45275bac632130b35cd6.png",
+    "static/media/duckadminpost.png": "/ryanblog/static/media/duckadminpost.1f596caa5340c5b35160.png",
+    "static/media/duckOrder.png": "/ryanblog/static/media/duckOrder.b37a9f137323c3c73847.png",
     "static/media/diego.jpg": "/ryanblog/static/media/diego.b264fa398bbeaddc9541.jpg",
+    "static/media/duckOrderAdmin.png": "/ryanblog/static/media/duckOrderAdmin.c0392ccaa6485a92fb79.png",
+    "static/media/duckRoleAdmin.png": "/ryanblog/static/media/duckRoleAdmin.97483ca27a25618bb287.png",
+    "static/media/duckTableAdmin.png": "/ryanblog/static/media/duckTableAdmin.edb797413feac557ccf8.png",
+    "static/media/duckBookAdmin.png": "/ryanblog/static/media/duckBookAdmin.dbc5c552f5f7ab78e892.png",
+    "static/media/duckBook.png": "/ryanblog/static/media/duckBook.30c3a897a1c471f3fa0c.png",
     "static/media/bryan.jpg": "/ryanblog/static/media/bryan.b4608e73e3da37e08ca3.jpg",
     "static/media/icebox.jpg": "/ryanblog/static/media/icebox.0a3e04c1eeb0bbfa2258.jpg",
     "static/media/coffeeshop.jpg": "/ryanblog/static/media/coffeeshop.8b58b3b7e3040d84af4f.jpg",
     "static/media/computer.jpg": "/ryanblog/static/media/computer.8fbccef306441f27d609.jpg",
     "index.html": "/ryanblog/index.html",
     "main.6749782e.css.map": "/ryanblog/static/css/main.6749782e.css.map",
-    "main.6f35b8c9.js.map": "/ryanblog/static/js/main.6f35b8c9.js.map",
+    "main.c1012f69.js.map": "/ryanblog/static/js/main.c1012f69.js.map",
     "787.17ba625c.chunk.js.map": "/ryanblog/static/js/787.17ba625c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6749782e.css",
-    "static/js/main.6f35b8c9.js"
+    "static/js/main.c1012f69.js"
   ]
 }

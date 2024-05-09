@@ -1,1 +1,1 @@
-{"version":3,"file":"static/css/main.6749782e.css","mappings":"AAAA,cACI,0CACJ","sources":["globalFont.css"],"sourcesContent":["body {\r\n    font-family: 'Noto Sans TC',  'Roboto' , sans-serif;\r\n}"],"names":[],"sourceRoot":""}
+{"version":3,"file":"static/css/main.6749782e.css","mappings":"AAAA,cACI,0CACJ","sources":["globalFont.css"],"sourcesContent":["body {\n    font-family: 'Noto Sans TC',  'Roboto' , sans-serif;\n}"],"names":[],"sourceRoot":""}
