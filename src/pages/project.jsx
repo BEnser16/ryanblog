@@ -2,12 +2,14 @@ import React from 'react'
 import { Container  } from 'react-bootstrap';
 import ProjectCard from '../components/projectCard';
 import coffeeImg from '../static/img/project/coffeeshop.jpg';
-import iceboxImg from '../static/img/project/icebox.jpg'
+import iceboxImg from '../static/img/project/icebox.jpg';
+import zooImg from '../static/img/project/zoo.jpg';
 
 const project = () => {
   const articles = [
     { id: 1, title: 'Duck Coffee', content: 'React + Springboot , 咖啡廳餐飲資訊系統'  , cover:coffeeImg , link:'/ryanblog/project/duckcoffee'},
-    { id: 2, title: 'Fridge Cooker', content: 'ReactNative , 冰箱物品管理 App' , cover:iceboxImg , link:'/ryanblog/project/fridgecooker'},
+    { id: 2, title: 'Fridge Cooker - 開發中', content: 'ReactNative , 冰箱物品管理 App' , cover:iceboxImg , link:'/ryanblog/project/fridgecooker'},
+    { id: 3, title: 'ZooGuide Linebot - 課堂作業', content: 'Linebot + GCP , 兒童動物園導覽聊天機器人' , cover:zooImg , link:'/ryanblog/project/zoolinebot'},
     // 可以添加更多文章
   ];
 

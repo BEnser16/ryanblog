@@ -8,6 +8,8 @@ import Footer from './components/footer';
 import Ch1 from './post/ch1';
 import GitCommand from './post/GitCommand';
 import DuckCoffeeIntro from './pages/DuckCoffeeIntro';
+import FridgeAppIntro from './pages/FridgeAppIntro';
+import ZooLinebot from './pages/ZooLinebot';
 
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
           
           <Route path="/project" element={<Project/>} />
           <Route path="/project/duckcoffee" element={<DuckCoffeeIntro/>} />
+          <Route path="/project/fridgecooker" element={<FridgeAppIntro/>} />
+          <Route path="/project/zoolinebot" element={<ZooLinebot/>} />
 
         </Routes>
       <Footer />

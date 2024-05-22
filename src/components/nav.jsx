@@ -7,7 +7,7 @@ function NavBar() {
   return (
     <Navbar expand="lg" bg="light" data-bs-theme="light">
         <Container>
-          <Navbar.Brand href="/ryanblog/"><b>RYAN BLOG</b></Navbar.Brand>
+          <Navbar.Brand href="/ryanblog/"><b>RYAN DAI</b></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
