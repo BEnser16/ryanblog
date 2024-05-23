@@ -12,6 +12,7 @@ import duckTableAdmin from "../static/img/project/duck/duckTableAdmin.png";
 import duckRoleAdmin from "../static/img/project/duck/duckRoleAdmin.png";
 import duckIcon from "../static/img/project/duck/duck.png";
 import duckCofeeShop from "../static/img/project/coffeeshop.jpg";
+import duckDia from "../static/img/project/duck/duckcoffeeDia.png";
 
 const DuckCoffeeIntro = () => {
   return (
@@ -120,6 +121,8 @@ const DuckCoffeeIntro = () => {
           </Row>
           <Row id="struct-row" className="my-3">
             <h4>系統架構</h4>
+            <Image src={duckDia} fluid className="m-5" />
+
           </Row>
           <Row id="function-row" className="my-3">
             <h4>功能介紹</h4>
