@@ -10,6 +10,7 @@ import GitCommand from './post/GitCommand';
 import DuckCoffeeIntro from './pages/DuckCoffeeIntro';
 import FridgeAppIntro from './pages/FridgeAppIntro';
 import ZooLinebot from './pages/ZooLinebot';
+import PostView from './pages/PostView';
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
           <Route  path="/post" element={<Post/>} /> 
           <Route path="/post/ch1" element={<Ch1 />} />
           <Route path="/post/gitcommand" element={<GitCommand />} />
-          
+          <Route path="/post-view/:id" element={<PostView/>} />
           
           <Route path="/project" element={<Project/>} />
           <Route path="/project/duckcoffee" element={<DuckCoffeeIntro/>} />

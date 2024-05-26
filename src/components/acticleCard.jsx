@@ -2,20 +2,31 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import computerImg from '../static/img/computer.jpg'
 
-const ArticleCard = ({ title, content, id, cover , path}) => {
+const ArticleCard = ({ title, description, id, cover }) => {
   return (
-    <Card className="m-2" style={{ width: "25rem" }} key={id} >
-      <Card.Img variant="top" src={computerImg} />
-      <Card.Body>
-        <Card.Title>{title}</Card.Title>
-        <Card.Text>{content}</Card.Text>
-        <Link to={`/post/${path}`} className="btn btn-primary">
-          閱讀更多
-        </Link>
-      </Card.Body>
-    </Card>
+    <Link to={`/post-view/${id}`} style={{ textDecoration: 'none' }} >
+      <Card
+        className="m-2"
+        style={{
+          width: "25rem",
+          boxShadow: "0 4px 8px 0 rgba(0,0,0,0.2)",
+          border: "10px solid #fff",
+          textDecoration: 'none'
+        }}
+        key={id}
+      >
+        <Card.Img
+          variant="top"
+          style={{ height: "16rem", objectFit: cover }}
+          src={cover}
+        />
+        <Card.Body>
+          <Card.Title>{title}</Card.Title>
+          <Card.Text>{description}</Card.Text>
+        </Card.Body>
+      </Card>
+    </Link>
   );
 };
 

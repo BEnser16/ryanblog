@@ -1,13 +1,20 @@
 import React from 'react'
 import { Container  } from 'react-bootstrap';
 import ArticleCard from '../components/acticleCard';
+import axios from 'axios';
+import { BaseUrl } from '../service/BaseUrl';
 
-const post = () => {
-  const articles = [
-    { id: 1, title: 'JavaScript Ch1 語法與型別', content: '給初學者的 javascript 入門課' , path:'ch1' },
-    { id: 2, title: 'Git 常用指令', content: '紀錄常用的 Git 指令與概念' , path:'gitcommand' },
-    // 可以添加更多文章
-  ];
+const Post = () => {
+  const [posts, setPosts] = React.useState([]);
+
+  React.useEffect(() => {
+    axios.get(`${BaseUrl}/posts`).then((res) => {
+      console.log('get posts response', res);
+      setPosts(res.data);
+    }).catch((error) => {
+      console.log('error', error);
+    });
+  }, []);
 
 
   return (
@@ -15,14 +22,14 @@ const post = () => {
       <Container className='mt-5' style={{minHeight:"90vh"}} >
         <h2>文章分享</h2>
         <Container id='acticle-container' className='m-2 mt-5 d-flex' >
-
-          {articles.map(article => (
-            <ArticleCard key={article.id} {...article} />
-            ))}
+          {posts.length > 0 && posts.map(post => (
+            <ArticleCard key={post.id} {...post} />
+          ))}
+          {posts.length === 0 && <h3>目前沒有文章</h3>}
         </Container>
       </Container>
     </>
   )
 }
 
-export default post
+export default Post
