@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ryanblog/static/css/main.6749782e.css",
-    "main.js": "/ryanblog/static/js/main.32fe295f.js",
+    "main.js": "/ryanblog/static/js/main.9c25e0e5.js",
     "static/js/787.17ba625c.chunk.js": "/ryanblog/static/js/787.17ba625c.chunk.js",
     "static/media/duckpost.png": "/ryanblog/static/media/duckpost.0950916003ae80554411.png",
     "static/media/zoo.jpg": "/ryanblog/static/media/zoo.933f5c2e95c0882f777a.jpg",
@@ -18,15 +18,14 @@
     "static/media/bryan.jpg": "/ryanblog/static/media/bryan.b4608e73e3da37e08ca3.jpg",
     "static/media/icebox.jpg": "/ryanblog/static/media/icebox.0a3e04c1eeb0bbfa2258.jpg",
     "static/media/coffeeshop.jpg": "/ryanblog/static/media/coffeeshop.8b58b3b7e3040d84af4f.jpg",
-    "static/media/computer.jpg": "/ryanblog/static/media/computer.8fbccef306441f27d609.jpg",
     "static/media/duckcoffeeDia.png": "/ryanblog/static/media/duckcoffeeDia.fd675303de9900b39cda.png",
     "index.html": "/ryanblog/index.html",
     "main.6749782e.css.map": "/ryanblog/static/css/main.6749782e.css.map",
-    "main.32fe295f.js.map": "/ryanblog/static/js/main.32fe295f.js.map",
+    "main.9c25e0e5.js.map": "/ryanblog/static/js/main.9c25e0e5.js.map",
     "787.17ba625c.chunk.js.map": "/ryanblog/static/js/787.17ba625c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6749782e.css",
-    "static/js/main.32fe295f.js"
+    "static/js/main.9c25e0e5.js"
   ]
 }
