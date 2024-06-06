@@ -1,1 +1,1 @@
-export const BaseUrl = "https://bobacase.azurewebsites.net";
+export const BaseUrl = "https://bobaryanbox.cc";
