@@ -7,9 +7,9 @@ import zooImg from '../static/img/project/zoo.jpg';
 
 const project = () => {
   const articles = [
-    { id: 1, title: 'Duck Coffee', content: 'React + Springboot , 咖啡廳餐飲資訊系統'  , cover:coffeeImg , link:'/ryanblog/project/duckcoffee'},
-    { id: 2, title: 'Fridge Cooker - 開發中', content: 'ReactNative , 冰箱物品管理 App' , cover:iceboxImg , link:'/ryanblog/project/fridgecooker'},
-    { id: 3, title: 'ZooGuide Linebot - 課堂作業', content: 'Linebot + GCP , 兒童動物園導覽聊天機器人' , cover:zooImg , link:'/ryanblog/project/zoolinebot'},
+    { id: 1, title: 'Duck Coffee', content: 'React + Springboot , Web 餐飲資訊系統'  , cover:coffeeImg , link:'/ryanblog/project/duckcoffee'},
+    { id: 2, title: 'MasterEat', content: 'ReactNative , 冰箱管理 App' , cover:iceboxImg , link:'/ryanblog/project/mastereat'},
+    { id: 3, title: 'ZooGuide Linebot', content: 'Linebot + GCP , 兒童動物園導覽聊天機器人' , cover:zooImg , link:'/ryanblog/project/zoolinebot'},
     // 可以添加更多文章
   ];
 

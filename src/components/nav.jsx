@@ -5,7 +5,7 @@ import './font.css'
 
 function NavBar() {
   return (
-    <Navbar expand="lg" bg="light" data-bs-theme="light">
+    <Navbar expand="lg" bg="dark" data-bs-theme="dark">
         <Container>
           <Navbar.Brand href="/ryanblog/"><b>RYAN DAI</b></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

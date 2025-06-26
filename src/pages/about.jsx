@@ -1,68 +1,98 @@
 import React from "react";
-import { Container, Image, Row  , Col } from "react-bootstrap";
+import { Container, Image, Row, Col, Card, Badge } from "react-bootstrap";
 import cutImg from "../static/img/bryan.jpg";
 
-const about = () => {
+const About = () => {
+  const skills = [
+    "Java",
+    "SpringBoot",
+    "MySQL",
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB",
+  ];
+
   return (
-    <>
-      <Container className="mt-5" style={{ minHeight: "90vh" }}>
-        <Row className="my-5">
-          <div className="col mt-3">
-            <Image
-              src={cutImg}
-              style={{
-                maxHeight: "300px",
-                maxWidth: "300px",
-                objectFit: "cover",
-              }}
-              roundedCircle
-            />
-          </div>
-          <div className="col">
-            <h2 className="my-4">
-              <b>戴御軒 RYAN</b>
-            </h2>
-            <p>
-              您好！我是Ryan戴御軒，新北市淡水人，
-              目前就讀於高雄科技大學，主修資訊管理。
-            </p>
-            <p>擅長JAVA 後端開發</p>
-            <Row className="mt-5 d-flex flex-column" >
-              <h3>技能</h3>
-              <p>
-                Java , SpringBoot , MySQL , React , Node.js , Express , MongoDB
-              </p>
-
-              
-            </Row>
-          </div>
-        </Row>
-
-        <Row className="mt-5 mt-md-5"  >
-          <div className="col">
-            <h3 className="mb-3" >聯絡資訊</h3>
-            <p>
-              Email：<a href="mailto:ryan1690@gmail.com" >ryan1690@gmail.com </a> <br />
-              Github：<a href="https://github.com/BEnser16">    https://github.com/BEnser16 </a><br />
-              Linkedin： <a href="http://linkedin.com/in/ryan-dai-5b9774230"> http://linkedin.com/in/ryan-dai-5b9774230 </a>
-            </p>
-          </div>
-          <div className="col">
-            <Col className="mb-3" >
-              <h3>興趣</h3>
+    <div style={{ backgroundColor: "#eaeaea" , paddingTop: "60px" }}>
+      <Container style={{ minHeight: "90vh" }}>
+        {/* Profile Card */}
+        <Card className="p-4 shadow-sm">
+          <Row className="align-items-center">
+            <Col md={4} className="text-center mb-4 mb-md-0">
+              <Image
+                src={cutImg}
+                roundedCircle
+                fluid
+                className="shadow"
+                style={{
+                  maxWidth: "250px",
+                  objectFit: "cover",
+                  transition: "transform 0.3s ease-in-out",
+                }}
+                onMouseOver={(e) =>
+                  (e.currentTarget.style.transform = "scale(1.05)")
+                }
+                onMouseOut={(e) =>
+                  (e.currentTarget.style.transform = "scale(1)")
+                }
+              />
             </Col>
-            <Col>
+            <Col md={8}>
+              <h2 className="fw-bold mb-3">戴御軒 Ryan</h2>
               <p>
-                網球  <br />
-                NBA  <br />
-                Switch
+                您好！我是 Ryan
+                戴御軒，新北市淡水人，畢業於高雄科技大學資訊管理系。
+                熱衷於開發有趣的產品，並持續精進實務開發經驗。
               </p>
+              <p>
+                專長領域：<strong>Java 後端開發</strong>，熟悉 Spring Boot
+                與資料庫操作。
+              </p>
+              <h5 className="mt-4 mb-2">技能技術</h5>
+              <div>
+                {skills.map((skill, idx) => (
+                  <Badge key={idx} bg="primary" className="me-2 mb-2">
+                    {skill}
+                  </Badge>
+                ))}
+              </div>
             </Col>
-          </div>
+          </Row>
+        </Card>
+
+        {/* Contact & Interests */}
+        <Row className="mt-5">
+          <Col md={6}>
+            <Card className="p-4 shadow-sm h-100">
+              <h4 className="mb-3">聯絡資訊</h4>
+              <p>
+                📧 Email：{" "}
+                <a href="mailto:ryan1690@gmail.com">ryandai1690@gmail.com</a>
+                <br />
+                💻 Github： <a href="https://github.com/BEnser16">BEnser16</a>
+                <br />
+                🔗 Linkedin：{" "}
+                <a href="http://linkedin.com/in/ryan-dai-5b9774230">
+                  ryan-dai-5b9774230
+                </a>
+              </p>
+            </Card>
+          </Col>
+          <Col md={6} className="mt-4 mt-md-0">
+            <Card className="p-4 shadow-sm h-100">
+              <h4 className="mb-3">興趣嗜好</h4>
+              <ul className="mb-0">
+                <li>⛰️ 登山</li>
+                <li>🏀 NBA</li>
+                <li>🎮 Switch</li>
+              </ul>
+            </Card>
+          </Col>
         </Row>
       </Container>
-    </>
+    </div>
   );
 };
 
-export default about;
+export default About;
