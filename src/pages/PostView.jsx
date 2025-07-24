@@ -1,9 +1,8 @@
-import React, { useEffect , useState } from "react";
+import { useEffect , useState } from "react";
 import ReactMarkdown from "react-markdown";
 import { Container, Image } from "react-bootstrap";
 import { useParams } from "react-router-dom";
-import axios from "axios";
-import { BaseUrl } from "../service/BaseUrl";
+import { supabase } from "../supabaseClient";
 
 const PostView = () => {
   const { id } = useParams();
@@ -11,18 +10,24 @@ const PostView = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // 假設你的 API URL 是 `/api/posts/:id`
-    axios
-      .get(`${BaseUrl}/post-view/${id}`)
-      .then((res) => {
-        console.log(res.data);
-        setPost(res.data);
-        setLoading(false);
-      })
-      .catch((error) => {
-        console.error("Error fetching post:", error);
-        setLoading(false);
-      });
+    async function fetchPost() {
+      const { data, error } = await supabase
+        .from("posts")
+        .select("*")
+        .eq("id", id)
+        .single(); // 抓單一筆
+
+      if (error) {
+        console.error("抓文章失敗：", error);
+      } else {
+        console.log("抓到文章：", data);
+        setPost(data);
+      }
+
+      setLoading(false);
+    }
+
+    fetchPost();
   }, [id]);
 
   if (loading) {
@@ -41,6 +46,7 @@ const PostView = () => {
       />
       <Container fluid className="d-flex justify-content-center">
         <div className="col-6 my-5">
+          <h1>{post.title}</h1>
           <ReactMarkdown children={post.content} />
         </div>
       </Container>
