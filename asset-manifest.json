@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ryanblog/static/css/main.6749782e.css",
-    "main.js": "/ryanblog/static/js/main.344d4d89.js",
+    "main.js": "/ryanblog/static/js/main.4067becd.js",
     "static/js/787.17ba625c.chunk.js": "/ryanblog/static/js/787.17ba625c.chunk.js",
     "static/media/duckpost.png": "/ryanblog/static/media/duckpost.0950916003ae80554411.png",
     "static/media/zoo.jpg": "/ryanblog/static/media/zoo.933f5c2e95c0882f777a.jpg",
@@ -21,11 +21,11 @@
     "static/media/duckcoffeeDia.png": "/ryanblog/static/media/duckcoffeeDia.fd675303de9900b39cda.png",
     "index.html": "/ryanblog/index.html",
     "main.6749782e.css.map": "/ryanblog/static/css/main.6749782e.css.map",
-    "main.344d4d89.js.map": "/ryanblog/static/js/main.344d4d89.js.map",
+    "main.4067becd.js.map": "/ryanblog/static/js/main.4067becd.js.map",
     "787.17ba625c.chunk.js.map": "/ryanblog/static/js/787.17ba625c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6749782e.css",
-    "static/js/main.344d4d89.js"
+    "static/js/main.4067becd.js"
   ]
 }
