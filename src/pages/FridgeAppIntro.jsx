@@ -1,4 +1,3 @@
-import React from "react";
 import FridgeAppCover from "../static/img/project/icebox.jpg";
 import { Image, Container, Row, Table, Col } from "react-bootstrap";
 
@@ -26,8 +25,10 @@ const FridgeAppIntro = () => {
           MasterEat 是一款基於ReactNative的冰箱管理App , 可以記錄冰箱內的食品 ,
           並且提供食譜推薦功能 , 讓使用者可以依照冰箱內的食材來搜尋適合的食譜。
         </p>
+        <p className="m-3" ><a href="https://fridge-cooker-client.vercel.app">Web版網址</a></p>
         </Row>
-        <h2>使用技術</h2>
+        <h3>使用技術</h3>
+        <hr/>
         <Row id="tech-row" className="my-3">
           <Col md={6}>
           <h5>前端</h5>
@@ -118,7 +119,8 @@ const FridgeAppIntro = () => {
           </Table>
           </Col>
         </Row>
-        <h2>功能介紹</h2>
+        <h3>功能介紹</h3>
+        <hr/>
         <Row id="tech-row" className="my-4">
           
           <Row className="align-items-center">

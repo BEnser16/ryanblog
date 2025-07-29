@@ -1,7 +1,8 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Spinner } from "react-bootstrap";
 import ArticleCard from "../components/acticleCard";
 import { supabase } from "../supabaseClient";
+import { FaFeather } from "react-icons/fa";
 
 const Post = () => {
   const [posts, setPosts] = React.useState([]);
@@ -30,9 +31,16 @@ const Post = () => {
   return (
     <Container className="mt-5" style={{ minHeight: "90vh" }}>
       <h2>文章分享</h2>
-      <Container id="acticle-container" className="m-2 mt-5 d-flex flex-wrap gap-3">
+      <Container
+        id="acticle-container"
+        className="m-2 mt-5 d-flex flex-wrap gap-3"
+      >
         {loading ? (
-          <h3>Loading...</h3>
+          <div className="w-100 d-flex flex-column align-items-center mt-5">
+            <Spinner animation="border" role="status" variant="primary" />
+            <FaFeather size={32} className="mt-3 text-primary" />
+            <p className="mt-2 text-secondary">文章努力載入中...</p>
+          </div>
         ) : posts.length === 0 ? (
           <h3>目前沒有文章</h3>
         ) : (

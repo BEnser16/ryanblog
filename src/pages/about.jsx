@@ -68,7 +68,7 @@ const About = () => {
               <h4 className="mb-3">聯絡資訊</h4>
               <p>
                 📧 Email：{" "}
-                <a href="mailto:ryan1690@gmail.com">ryandai1690@gmail.com</a>
+                <a href="mailto:ryandai1690@gmail.com">ryandai1690@gmail.com</a>
                 <br />
                 💻 Github： <a href="https://github.com/BEnser16">BEnser16</a>
                 <br />
